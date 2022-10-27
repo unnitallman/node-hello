@@ -2,5 +2,9 @@
   "name": "node_hello",
   "env": {},
   "addons": [],
-  "buildpacks": []
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
 }
